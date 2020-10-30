@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-30T15:54:17.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="6ArrL5-zpVBcQ_Lx7_H8" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-30T15:56:05.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="jxNPtZ5zO14wxBV_B1al" version="13.8.8" type="github">
   <diagram id="JJq8KRUSb-bCj2OKKWda" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -57,23 +57,29 @@
         <mxCell id="tPXoXflb5P6Q86PlPwlJ-58" value="" style="group" vertex="1" connectable="0" parent="tPXoXflb5P6Q86PlPwlJ-28">
           <mxGeometry x="-15" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tPXoXflb5P6Q86PlPwlJ-29" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="tPXoXflb5P6Q86PlPwlJ-58">
+        <mxCell id="tPXoXflb5P6Q86PlPwlJ-67" value="" style="group" vertex="1" connectable="0" parent="tPXoXflb5P6Q86PlPwlJ-58">
           <mxGeometry width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tPXoXflb5P6Q86PlPwlJ-30" value="Serverless Data Processor&lt;br&gt;(Poll api on a given interval)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tPXoXflb5P6Q86PlPwlJ-58">
-          <mxGeometry x="28" y="20" width="154" height="20" as="geometry" />
+        <mxCell id="tPXoXflb5P6Q86PlPwlJ-29" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="tPXoXflb5P6Q86PlPwlJ-67">
+          <mxGeometry width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPXoXflb5P6Q86PlPwlJ-66" value="Order/Inventory Data&lt;br&gt;Serverless Processor&lt;br&gt;(Poll api on a given interval)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tPXoXflb5P6Q86PlPwlJ-67">
+          <mxGeometry x="18.75" y="20" width="172.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tPXoXflb5P6Q86PlPwlJ-33" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="150" y="210" width="160" height="60" as="geometry" />
+          <mxGeometry x="150" y="210" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tPXoXflb5P6Q86PlPwlJ-59" value="" style="group" vertex="1" connectable="0" parent="tPXoXflb5P6Q86PlPwlJ-33">
-          <mxGeometry x="-60" width="220" height="60" as="geometry" />
+          <mxGeometry x="-60" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tPXoXflb5P6Q86PlPwlJ-22" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="tPXoXflb5P6Q86PlPwlJ-59">
+        <mxCell id="tPXoXflb5P6Q86PlPwlJ-68" value="" style="group" vertex="1" connectable="0" parent="tPXoXflb5P6Q86PlPwlJ-59">
           <mxGeometry width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tPXoXflb5P6Q86PlPwlJ-8" value="Serverless Data Processor&lt;br&gt;(Poll api on a given interval)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tPXoXflb5P6Q86PlPwlJ-59">
-          <mxGeometry x="27.5" y="20" width="155.83333333333331" height="20" as="geometry" />
+        <mxCell id="tPXoXflb5P6Q86PlPwlJ-22" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="tPXoXflb5P6Q86PlPwlJ-68">
+          <mxGeometry width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPXoXflb5P6Q86PlPwlJ-8" value="Order/Inventory Data&lt;br&gt;Serverless Processor&lt;br&gt;(Poll api on a given interval)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tPXoXflb5P6Q86PlPwlJ-68">
+          <mxGeometry x="27.5" y="20" width="172.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tPXoXflb5P6Q86PlPwlJ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="tPXoXflb5P6Q86PlPwlJ-35" target="tPXoXflb5P6Q86PlPwlJ-18">
           <mxGeometry relative="1" as="geometry" />
