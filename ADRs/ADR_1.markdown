@@ -17,5 +17,5 @@ In terms of scaling, AWS lambda functions scales automatically if needed.
 
 ## Consequence
 
-There exists a possibilty to not get most updated data when an event happens in between schedule intervals.
-This limitation is addressed in ADR 2. Otherwise, the scheduling rate can be adjust to minimize this scenario
+There exists a possibilty to NOT get the most updated data whenever an event happens in between scheduled polling intervals.
+This limitation is addressed in ADR 2. Otherwise, the scheduling rate can be adjusted to minimize this limitation.
