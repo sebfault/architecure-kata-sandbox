@@ -4,6 +4,7 @@
 Pending
 
 ## Context
+![Image of Context](https://github.com/sebfault/architecure-kata-sandbox/blob/master/ADRs/images/imageSource2.PNG)
 
 ## Decision
 
