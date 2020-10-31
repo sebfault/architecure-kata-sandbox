@@ -6,7 +6,7 @@ Accepted
 ## Context
 Client has stated that external sources (such as Smart Fridges and Point of Sale) can communicate using their own API. 
 
-![Context] (https://github.com/sebfault/architecure-kata-sandbox/blob/master/ADRs/images/imageSource1.PNG)
+![Image of Context](https://github.com/sebfault/architecure-kata-sandbox/blob/master/ADRs/images/imageSource1.PNG)
 
 ## Decision
 This serverless architecture can use seperate lambda functions to poll and communicate to data from external APIs.
