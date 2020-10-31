@@ -1,4 +1,4 @@
-# 1. CloudWatch events to schedule AWS Lambda Functions. This will be used to trigger polling for extrenal APIs
+# 1. CloudWatch events to schedule AWS Lambda Functions. To be used for triggering polling to extrenal APIs
 
 ## Status
 Accepted
@@ -9,8 +9,8 @@ Client has stated that external sources (such as Smart Fridges and Point of Sale
 ![Image of Context](https://github.com/sebfault/architecure-kata-sandbox/blob/master/ADRs/images/imageSource1.PNG)
 
 ## Decision
-This serverless architecture can use seperate lambda functions to poll and communicate to data from external APIs.
-Multiple lambdas can be scheduled to be executed on a customized rate ( hit API endpoint x every y minutes).
+This serverless architecture can use seperate lambda functions to poll and communicate data from external APIs.
+Multiple lambdas can be scheduled to execute on a customized rate (i.e: hit external API endpoint x every y minutes).
 
 If any new system is introduced, the system can simply add another lambda function.
 In terms of scaling, AWS lambda functions scales automatically if needed.
