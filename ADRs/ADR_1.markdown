@@ -1,4 +1,4 @@
-# 1. CloudWatch events to schedule AWS Lambda Functions. To be used for triggering polling to extrenal APIs
+# 1. CloudWatch events to schedule AWS Lambda Functions. To be used for triggering polling to external APIs
 
 ## Status
 Accepted
